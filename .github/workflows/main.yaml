@@ -1,6 +1,6 @@
-name: Django# workflow nameon:
+nameon: test
   push:
-    branches:# similar to "only" in GitLab- main
+    branches: main
 
 jobs:
   oast-snyk:
