@@ -1,3 +1,7 @@
+name: Django# workflow nameon:
+  push:
+    branches:# similar to "only" in GitLab- main
+
 jobs:
   oast-snyk:
     runs-on: ubuntu-20.04
